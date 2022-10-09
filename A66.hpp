@@ -17,7 +17,7 @@ void maxmin(int n1, int n2, int n3, int &max, int &min){
       max = n3;
    }
 
-    int small = n1;
+    int min= n1;
     if (n2 < min)
      min=n2;
     if(n3 < min)
